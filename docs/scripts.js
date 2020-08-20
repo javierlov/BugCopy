@@ -1,4 +1,4 @@
-console.log('start');
+console.log('start buscarpock');
 
 function buscarpock(){
 	let xhttp = new XMLHttpRequest();

@@ -6,7 +6,8 @@ function buscarpock(){
 	let img = document.getElementById('img');
 	let etiqueta = document.getElementById('datos');
 	let xhttp = new XMLHttpRequest();
-	xhttp.open("GET", 'https://pokeapi.co/api/v2/pokemon/${txtopcion}');
+	let urlpcok = 'https://pokeapi.co/api/v2/pokemon/'+txtopcion;
+	xhttp.open("GET", urlpcok);
 	xhttp.send();
 	
 	xhttp.onreadystatechange=function(){
